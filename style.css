@@ -1,0 +1,225 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+/*Cabeçalho*/
+header{
+    background-image: url(./imagens/middleEarth.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 400px;
+}
+#divHeader{
+    background-color: white;
+    margin: auto;
+    margin-top: -100px;    
+}
+#divMenu{
+    text-align: center;
+}
+.navbar{
+    font-family: 'MedievalSharp', cursive;
+}
+.navbar-brand{
+    font-size: 18pt;
+    font-weight: bolder;
+}
+.navbar-nav{
+    font-size: 15pt;
+    font-weight: bolder;
+    text-align: right;
+}
+#h1Header{
+    font-size: 50pt;
+    color: #2D3142;
+    padding: 0px 0px 10px 10px;
+}
+#pHeader{
+    font-family: 'MedievalSharp', cursive;
+    color: white;
+    padding: 0px 0px 10px 10px;
+}
+
+/*Seção de apresentação*/
+#presentation{
+    margin-top: 50px;
+}
+#aspas{
+    padding-top: 10px;
+    width: 5%;
+}
+h1{
+    font-size: 18pt;
+    font-family: 'MedievalSharp', cursive;
+    margin-top: 10px;
+}
+#tolkienPar{
+    font-weight: bolder;
+}
+#tolkienTxt::first-letter{
+    color: #ef8254d5;
+    font-size: 30px;
+    font-weight: bold;
+}
+#divImg{
+    text-align: center;
+}
+#tolkienImg{
+    width: 95%;
+    margin: 38px 10px 20px 10px;
+    border-radius: 30%;
+}
+.tolkienButton{
+    margin-bottom: 10px;
+}
+
+/*A Série*/
+#serie{
+    min-height: 800px;
+    background-image: linear-gradient(to top, transparent 0%, white 90%), url("/imagens/LOTR-Rings-of-Power-First-Look-Edit.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.serie{
+    padding: 50px 0 0 10px;
+}
+.h1Serie{
+    font-size: 50pt;
+    color: #2D3142;
+}
+.h2Serie{
+    font-family: 'MedievalSharp', cursive;
+    font-size: 30pt;
+    color: #2D3142;
+}
+.pSerie{
+    font-size: 14pt;
+}
+#firstPSerie::first-letter{
+    color: #ef8254d5;
+    font-size: 50px;
+    font-weight: bold;
+}
+.imgSauron{
+    width: 100%;
+    padding: 0px;
+}
+.btnPrimeVideo{
+    margin: 80px 0 20px 0px;
+}
+.serie2{
+    padding: 100px 0 0 0px;
+    text-align: center;
+}
+.serieVideo{
+    text-align: center;
+}
+iframe{
+    padding-bottom: 20px;
+    box-shadow: 12px 15px 20px rgb(19 86 174 / 10%);
+    border-radius: 10px;
+    height: 455.062px;
+    width: 809px;
+    max-width: 100%;
+}
+/*Livros*/
+
+.sectionLivros{
+    background-image: linear-gradient(to bottom, transparent 0%, black 90%), url("/imagens/pexels-suzy-hazelwood-1301585.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.livros{
+    background-color: #ef8254d5;
+    margin-top: -10px;
+}
+#h1Livros{
+    font-family: 'MedievalSharp', cursive;
+    text-align: left;
+    padding: 10px 10px 0 10px;
+    font-size: 50pt;
+    color: white;
+    font-weight: bolder;
+}
+.h2Livros{
+    font-family: 'MedievalSharp', cursive;
+    font-size: 30pt;
+    color: white;
+    padding: 0px 10px 30px 10px;
+}
+.buttonLivros{
+    margin-bottom: 20px;
+}
+.d-block{
+    width: 25%;
+    margin: auto;
+}
+.carousel-item{
+    text-align: center;
+}
+.carousel-item h5{
+    font-family: 'MedievalSharp', cursive;
+    margin-top: 20px;
+    font-size: 18pt;
+    color: white;
+    font-weight: bolder;
+}
+.carousel-item p{
+    font-family: 'MedievalSharp', cursive;
+    font-size: 14pt;
+    margin-top: 2px;
+    color: white;
+}
+.carousel-item a{
+    text-decoration: none;
+}
+
+/*Filmes*/
+.sectionFilmes{
+    min-height: 800px;
+    background-image: linear-gradient(to top, transparent 0%, black 90%), url("/imagens/backgroundFilmes.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.rowFilmes{
+    border: solid 1px #2d31425d;
+    margin: 10px 20px 0 20px;
+    padding: 10px;
+}
+.tituloFilmes{
+    margin: 0px 20px 0 20px;
+    padding: 10px;
+}
+.tituloFilmes h1{
+    font-size: 50pt;
+}
+.tituloFilmes h2{
+    font-family: 'MedievalSharp', cursive;
+    font-size: 30pt;
+}
+.divFilmes{
+    min-height: 800px;
+    background-color: white;
+}
+.divImgFilme{
+    text-align: center;
+}
+.imgFilme{
+    width: 50%;
+}
+.pFilme{
+    padding-top: 15px;
+    font-size: 14pt;
+    display: flex;
+    align-items: center;
+}
+.pButton{
+    margin-top: 5%;
+    text-align: center;
+}
+.pButton button{
+    padding: 10px 40px 10px 40px;
+}
